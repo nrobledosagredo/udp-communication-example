@@ -1,6 +1,6 @@
 # Comunicación UDP simple
 
-![Python](https://img.shields.io/badge/language-Python-blue)  
+![Python](https://img.shields.io/badge/language-Python-blue)
 ![Networking](https://img.shields.io/badge/topic-Networking-green)
 
 Ejemplo simple de comunicación cliente-servidor utilizando sockets UDP. Consta de dos scripts de cliente y un script de servidor que ilustran el flujo básico de envío y recepción de mensajes mediante UDP.
