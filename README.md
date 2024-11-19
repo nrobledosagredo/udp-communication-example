@@ -1,27 +1,29 @@
-# Comunicación UDP simple
+# UDP communication example
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-Ejemplo simple de comunicación cliente-servidor utilizando sockets UDP. Consta de dos scripts de cliente y un script de servidor que ilustran el flujo básico de envío y recepción de mensajes mediante UDP.
+This repository demonstrates client-server interaction using UDP sockets. It includes two client scripts and one server script that showcase fundamental message sending and receiving functionality.
 
-## Archivos
+## Project structure
 
-- **cliente1.py** y **cliente2.py**: Scripts de cliente que envían un mensaje al servidor.
-- **servidor.py**: Script de servidor que recibe los mensajes de los clientes y responde.
+- **client1.py** and **client2.py**: Client scripts that send messages to the server.
+- **server.py**: Server script that processes incoming messages from clients and sends back responses.
 
-## Ejecución
+## How to run
 
-1. Iniciar el servidor:
-
-```bash
-python servidor.py
-```
-
-2. Ejecutar los scripts de cliente en terminales separadas:
+1. Start the server:
 
 ```bash
-python cliente1.py
-python cliente2.py
+python server.py
 ```
 
-El servidor recibirá los mensajes de los clientes y enviará una respuesta.
+2. Launch the client scripts in separate terminal windows:
+
+```bash
+python client1.py
+python client2.py
+```
+
+The server will process messages sent by the clients and provide appropriate responses.
+
+---
